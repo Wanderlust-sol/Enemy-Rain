@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#bg {
+  position: relative;
+  height: 750px;
+  margin-top: 20px;
+}
+
+.start,
+.stop {
+  background-color: red;
+  width: 100px;
+  height: 40px;
+}
+
+.bg_image {
+  width: 1000px;
+}
+
+.hero {
+  background-image: url("images/hero.png");
+  width: 35px;
+  height: 54px;
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+}
+
+.left-face {
+  background-position-x: -70px;
+}
+
+.right-face {
+  background-position-x: -105px;
+}
+
+.enemy-image {
+  background-image: url("images/enemy.png");
+  width: 45px;
+  height: 53px;
+  position: absolute;
+  top: 0;
+}
+
+.kill-enemy {
+  background-position-x: 45px;
+}
